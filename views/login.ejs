@@ -1,0 +1,16 @@
+<%- include("layout/header.ejs") %>
+
+    <main>
+        <form action="/log" method="post">
+         
+            <label for="">Email</label>
+            <input type="text" name="username" required><br><br>
+
+            <label for="">Password</label>
+            <input type="password" name="password" required><br><br>
+
+            <button type="submit">Login</button><br><br>
+        </form>
+    </main>
+
+<%- include("layout/footer.ejs") %>
